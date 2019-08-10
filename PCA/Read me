@@ -1,0 +1,3 @@
+The idea of PCA is to find the most similar vector X_telda of the vector X where X_telda belongs to the vector space U spanned by-
+M orthonrmal basis vectros and X belong the vector space W spanned by N ortonormal basis vectors such that N > M. Note that X_telda 
+and X belong to the same R-(D), so after finding X_tedla we can represnt it by M coordinate with respect to the basis vectors of U.
