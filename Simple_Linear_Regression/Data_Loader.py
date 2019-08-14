@@ -31,7 +31,7 @@ class Regression_DataLoader:
 
     def load_data(self):
         "This function load the features and the observations from the csv file into features_mat and observations_mat\
-        features_mat belongs to R-(feature_dims,nums_features) and observations_mat belongs to R-(observation_dims,nums_features)"
+        features_mat belongs to R-(samples_num,features_num) and observations_mat belongs to R-(observation_num,observation_dims)"
 
         csv_file = pd.read_csv(self.__csv_path)
         features_mat = np.array([csv_file[features_col] for features_col in self.__features_cols])
