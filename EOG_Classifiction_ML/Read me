@@ -1,0 +1,10 @@
+EOG_Classification is a machine learning project for classifying the signal of the eye, Feature extraction method based on 
+digital signal processing techniques such as wavelet.
+The Data folder contains:
+-- test_down.txt file that contains the down movement signal of the eye.
+-- test_up.txt file that contains the up movement signal of the eye.
+-- train_up, and train_down for training.
+-- Test_Down_Life_Cycle and Test_Up_Life_Cycle are used to check the life cycle of the signal.
+-- Demo.mp4 is a video that concludes the project run.
+-- You can run the project from the file Deploy.py.
+-- DSP_Repor.pdf contains the details of the expiremts.
